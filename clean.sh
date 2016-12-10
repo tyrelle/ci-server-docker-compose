@@ -1,3 +1,3 @@
 #!/bin/sh
 
-rm -rf data/gogs/* data/postgresql/*
+rm -rf data/gogs/* data/postgresql/* data/jenkins/*

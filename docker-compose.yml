@@ -25,6 +25,15 @@ services:
       links:
         - postgresql
       entrypoint: "/entrypoint.sh"
+    jenkins:
+      image: jenkins
+      container_name: "jenkins"
+      restart: always
+      volumes:
+        - "./data/jenkins:/var/jenkins_home"
+      ports:
+        - "8085:8080"
+        - "50000:50000"
 
 
 
