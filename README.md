@@ -13,4 +13,3 @@
 1. Run `docker-compose stop` to stop gogs and postgresql containers.
 2. Run `docker-compose rm -f` to remove gogs and postgresql containers.
 3. Run `./clean.sh` if you want remove gogs and postgresql all datas.
->>>>>>> [chaohui] N/A add all files
